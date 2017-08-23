@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ALWMediator_Example' do
+  pod 'ALWMediator', :path => '../'
+
+  target 'ALWMediator_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

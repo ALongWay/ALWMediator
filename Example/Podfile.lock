@@ -1,0 +1,16 @@
+PODS:
+  - ALWMediator (0.1.0)
+
+DEPENDENCIES:
+  - ALWMediator (from `../`)
+
+EXTERNAL SOURCES:
+  ALWMediator:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ALWMediator: db4b01cff7114238c3a929be665af845671908d8
+
+PODFILE CHECKSUM: 15c955edc164c929db30f3c94987a8c577b75431
+
+COCOAPODS: 1.2.1

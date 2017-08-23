@@ -1,0 +1,6 @@
+framework module Pods_ALWMediator_Example {
+  umbrella header "Pods-ALWMediator_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
