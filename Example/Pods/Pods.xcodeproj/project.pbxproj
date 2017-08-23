@@ -11,8 +11,10 @@
 		3B6FB2FDF8B2160D6A0DF7956DC4083F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		487EE7F95F39C15D89ABEE6BB340062F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		71E03A28E01E29652A0252BE508C5D79 /* Pods-ALWMediator_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C2C01C36383F1F3F1DD2FDA8CFB9F853 /* Pods-ALWMediator_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		99FFC9F71F4DA53000D6E764 /* ALWMediator.h in Headers */ = {isa = PBXBuildFile; fileRef = 99FFC9F51F4DA53000D6E764 /* ALWMediator.h */; };
+		99FFC9F81F4DA53000D6E764 /* ALWMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = 99FFC9F61F4DA53000D6E764 /* ALWMediator.m */; };
+		99FFC9FA1F4DB32000D6E764 /* ALWMediatorDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 99FFC9F91F4DB32000D6E764 /* ALWMediatorDelegate.h */; };
 		A1F2B53C01D1309608607E89B07D7FE1 /* ALWMediator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B303F218BB237A5BCEC184267E027C3E /* ALWMediator-dummy.m */; };
-		C187D718D68254E254959FFA49292671 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C0DD0D3127E96A21633B4E5BE915C72 /* ReplaceMe.m */; };
 		CAD3D1F78824E7D2E67EB25A2AD8CBA0 /* ALWMediator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B18F13EC3B2D874C9AF6C0C440905CB7 /* ALWMediator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CF39B57FB1C2E64B55F689883ABD3B64 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		D118599C68064F99C21ADD7A5A9394DB /* Pods-ALWMediator_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FB76F1E232F93ED17D810DA889585E4 /* Pods-ALWMediator_Example-dummy.m */; };
@@ -31,12 +33,11 @@
 
 /* Begin PBXFileReference section */
 		086C152A32A128B603015DC12A6801C6 /* Pods-ALWMediator_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ALWMediator_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		100FD30867410762730192E0E62BD2E8 /* ALWMediator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = ALWMediator.modulemap; sourceTree = "<group>"; };
-		1529793C73B0D745715CAF1CC08B1C20 /* Pods_ALWMediator_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ALWMediator_Example.framework; path = "Pods-ALWMediator_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		199EA1C6FA42AC6C56FB1AD3B746B59A /* Pods-ALWMediator_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ALWMediator_Tests.modulemap"; sourceTree = "<group>"; };
-		1C0DD0D3127E96A21633B4E5BE915C72 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
+		100FD30867410762730192E0E62BD2E8 /* ALWMediator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = ALWMediator.modulemap; sourceTree = "<group>"; };
+		1529793C73B0D745715CAF1CC08B1C20 /* Pods_ALWMediator_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ALWMediator_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		199EA1C6FA42AC6C56FB1AD3B746B59A /* Pods-ALWMediator_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ALWMediator_Tests.modulemap"; sourceTree = "<group>"; };
 		209D42B67E6C1149C233903100358820 /* Pods-ALWMediator_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ALWMediator_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		400ADFA182A0794EC22A1E45C4B69AE7 /* ALWMediator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ALWMediator.framework; path = ALWMediator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		400ADFA182A0794EC22A1E45C4B69AE7 /* ALWMediator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ALWMediator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		407338AF8A747FA329FC9A962E4CCA3D /* Pods-ALWMediator_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ALWMediator_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		5DF569EFA4506DA820C5212E68ED3A3A /* ALWMediator.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ALWMediator.xcconfig; sourceTree = "<group>"; };
 		5FB76F1E232F93ED17D810DA889585E4 /* Pods-ALWMediator_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ALWMediator_Example-dummy.m"; sourceTree = "<group>"; };
@@ -46,18 +47,21 @@
 		85E1CFACDA0BCABDCF51683012E625F6 /* Pods-ALWMediator_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ALWMediator_Example-resources.sh"; sourceTree = "<group>"; };
 		88DB7338763C55B9502EEA59DBA6A8F3 /* Pods-ALWMediator_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ALWMediator_Tests-resources.sh"; sourceTree = "<group>"; };
 		8909B163A774EF0F3AF4DE1B7EC6A696 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		96BB7C849D3DF6D9B0C95468691AEF03 /* Pods-ALWMediator_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ALWMediator_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		99FFC9F51F4DA53000D6E764 /* ALWMediator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALWMediator.h; sourceTree = "<group>"; };
+		99FFC9F61F4DA53000D6E764 /* ALWMediator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALWMediator.m; sourceTree = "<group>"; };
+		99FFC9F91F4DB32000D6E764 /* ALWMediatorDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALWMediatorDelegate.h; sourceTree = "<group>"; };
 		9CABE7A6E33500F6F9F2886B0EFECF8B /* ALWMediator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ALWMediator-prefix.pch"; sourceTree = "<group>"; };
 		9D0DDC04F44AFBB99AEAEC9F7A778B0D /* Pods-ALWMediator_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ALWMediator_Example.release.xcconfig"; sourceTree = "<group>"; };
 		AEEBB1DCA3CF7CD71C8E42999EAE6E93 /* Pods-ALWMediator_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ALWMediator_Example-frameworks.sh"; sourceTree = "<group>"; };
 		B18F13EC3B2D874C9AF6C0C440905CB7 /* ALWMediator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ALWMediator-umbrella.h"; sourceTree = "<group>"; };
 		B303F218BB237A5BCEC184267E027C3E /* ALWMediator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ALWMediator-dummy.m"; sourceTree = "<group>"; };
-		B48655584F005AB4A2A65D3CDF6C703B /* Pods-ALWMediator_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ALWMediator_Example.modulemap"; sourceTree = "<group>"; };
+		B48655584F005AB4A2A65D3CDF6C703B /* Pods-ALWMediator_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ALWMediator_Example.modulemap"; sourceTree = "<group>"; };
 		BB4AF114E5EA7761E72D3EE932009D4F /* Pods-ALWMediator_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ALWMediator_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		C2C01C36383F1F3F1DD2FDA8CFB9F853 /* Pods-ALWMediator_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ALWMediator_Tests-umbrella.h"; sourceTree = "<group>"; };
 		CE1C8E5B9A3005809F07F51BDAC1DBDD /* Pods-ALWMediator_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ALWMediator_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		CF61A1CDB9FD5686B9DFC334A4163460 /* Pods_ALWMediator_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ALWMediator_Tests.framework; path = "Pods-ALWMediator_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF61A1CDB9FD5686B9DFC334A4163460 /* Pods_ALWMediator_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ALWMediator_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D588FC4180F456175B98C36F646625E7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DC51323727222908CA37B2A2FB399F05 /* Pods-ALWMediator_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ALWMediator_Example-umbrella.h"; sourceTree = "<group>"; };
 		F4CF556C400E7A717083FA317257ED34 /* Pods-ALWMediator_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ALWMediator_Tests-dummy.m"; sourceTree = "<group>"; };
@@ -150,9 +154,10 @@
 		7D27AA22E43D990FC71CE15D0CD873E9 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				1C0DD0D3127E96A21633B4E5BE915C72 /* ReplaceMe.m */,
+				99FFC9F51F4DA53000D6E764 /* ALWMediator.h */,
+				99FFC9F61F4DA53000D6E764 /* ALWMediator.m */,
+				99FFC9F91F4DB32000D6E764 /* ALWMediatorDelegate.h */,
 			);
-			name = Classes;
 			path = Classes;
 			sourceTree = "<group>";
 		};
@@ -186,7 +191,6 @@
 			children = (
 				7D27AA22E43D990FC71CE15D0CD873E9 /* Classes */,
 			);
-			name = ALWMediator;
 			path = ALWMediator;
 			sourceTree = "<group>";
 		};
@@ -239,7 +243,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99FFC9F71F4DA53000D6E764 /* ALWMediator.h in Headers */,
 				CAD3D1F78824E7D2E67EB25A2AD8CBA0 /* ALWMediator-umbrella.h in Headers */,
+				99FFC9FA1F4DB32000D6E764 /* ALWMediatorDelegate.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,8 +353,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99FFC9F81F4DA53000D6E764 /* ALWMediator.m in Sources */,
 				A1F2B53C01D1309608607E89B07D7FE1 /* ALWMediator-dummy.m in Sources */,
-				C187D718D68254E254959FFA49292671 /* ReplaceMe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
