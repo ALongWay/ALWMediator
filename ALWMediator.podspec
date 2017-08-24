@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ALWMediator'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'A mediator used to invoke target and method, also remove coupled relationship.'
 
   s.homepage         = 'https://github.com/ALongWay/ALWMediator'
