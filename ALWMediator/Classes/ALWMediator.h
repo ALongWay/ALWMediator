@@ -12,7 +12,7 @@
 @interface ALWMediator : NSObject
 
 /**
- 设置调用对象和方法的统一前缀
+ 可以选择设置调用对象和方法的统一前缀，设置以后，下面的调用方法内部会自动加上前缀
 
  @param targetPrefix 对象的前缀
  @param actionPrefix 方法的前缀

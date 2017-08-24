@@ -10,6 +10,8 @@
 #endif
 #endif
 
+#import "ALWMediator.h"
+#import "ALWMediatorDelegate.h"
 
 FOUNDATION_EXPORT double ALWMediatorVersionNumber;
 FOUNDATION_EXPORT const unsigned char ALWMediatorVersionString[];

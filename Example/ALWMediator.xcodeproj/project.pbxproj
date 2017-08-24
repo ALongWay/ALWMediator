@@ -23,6 +23,9 @@
 		66E9950213610542FAC0CAE3 /* Pods_ALWMediator_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC42795A086008F22FB30914 /* Pods_ALWMediator_Tests.framework */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		992216831F4EA54F000CECF9 /* ALWMediator+TargetA.m in Sources */ = {isa = PBXBuildFile; fileRef = 9922167F1F4EA54F000CECF9 /* ALWMediator+TargetA.m */; };
+		992216881F4EAF2A000CECF9 /* ALWTargetA.m in Sources */ = {isa = PBXBuildFile; fileRef = 992216871F4EAF2A000CECF9 /* ALWTargetA.m */; };
+		9922168B1F4EAF70000CECF9 /* ALWModuleAPrivateClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 9922168A1F4EAF70000CECF9 /* ALWModuleAPrivateClass.m */; };
 		B4EBF17E0DE9FF1EAB64E4C7 /* Pods_ALWMediator_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03CE2CDC0FBCBE7ECCD9B9C6 /* Pods_ALWMediator_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -38,7 +41,7 @@
 
 /* Begin PBXFileReference section */
 		03CE2CDC0FBCBE7ECCD9B9C6 /* Pods_ALWMediator_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ALWMediator_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1BDA7DC6D9451719BEAD0E5A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		1BDA7DC6D9451719BEAD0E5A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		30C7F4C71F081F129BBD0699 /* Pods-ALWMediator_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ALWMediator_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ALWMediator_Tests/Pods-ALWMediator_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		5C066ACA7625718D8229A192 /* Pods-ALWMediator_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ALWMediator_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-ALWMediator_Example/Pods-ALWMediator_Example.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* ALWMediator_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ALWMediator_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -63,10 +66,16 @@
 		63D48EC705ACD5620FDF549F /* Pods-ALWMediator_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ALWMediator_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ALWMediator_Tests/Pods-ALWMediator_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9922167E1F4EA54F000CECF9 /* ALWMediator+TargetA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ALWMediator+TargetA.h"; sourceTree = "<group>"; };
+		9922167F1F4EA54F000CECF9 /* ALWMediator+TargetA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ALWMediator+TargetA.m"; sourceTree = "<group>"; };
+		992216861F4EAF2A000CECF9 /* ALWTargetA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALWTargetA.h; sourceTree = "<group>"; };
+		992216871F4EAF2A000CECF9 /* ALWTargetA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALWTargetA.m; sourceTree = "<group>"; };
+		992216891F4EAF70000CECF9 /* ALWModuleAPrivateClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALWModuleAPrivateClass.h; sourceTree = "<group>"; };
+		9922168A1F4EAF70000CECF9 /* ALWModuleAPrivateClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALWModuleAPrivateClass.m; sourceTree = "<group>"; };
 		AC42795A086008F22FB30914 /* Pods_ALWMediator_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ALWMediator_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFCCD96097AECDCA449A1600 /* Pods-ALWMediator_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ALWMediator_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ALWMediator_Example/Pods-ALWMediator_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		CBC11C524835058837BF201B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		D21180395EA5368B56D4F317 /* ALWMediator.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ALWMediator.podspec; path = ../ALWMediator.podspec; sourceTree = "<group>"; };
+		CBC11C524835058837BF201B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		D21180395EA5368B56D4F317 /* ALWMediator.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ALWMediator.podspec; path = ../ALWMediator.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +141,8 @@
 		6003F593195388D20070C39A /* Example for ALWMediator */ = {
 			isa = PBXGroup;
 			children = (
+				9922167D1F4EA54F000CECF9 /* ALWMediatorAPIs */,
+				992216851F4EAF2A000CECF9 /* ALWModuleA */,
 				6003F59C195388D20070C39A /* ALWAppDelegate.h */,
 				6003F59D195388D20070C39A /* ALWAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -183,6 +194,26 @@
 				1BDA7DC6D9451719BEAD0E5A /* LICENSE */,
 			);
 			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		9922167D1F4EA54F000CECF9 /* ALWMediatorAPIs */ = {
+			isa = PBXGroup;
+			children = (
+				9922167E1F4EA54F000CECF9 /* ALWMediator+TargetA.h */,
+				9922167F1F4EA54F000CECF9 /* ALWMediator+TargetA.m */,
+			);
+			path = ALWMediatorAPIs;
+			sourceTree = "<group>";
+		};
+		992216851F4EAF2A000CECF9 /* ALWModuleA */ = {
+			isa = PBXGroup;
+			children = (
+				992216861F4EAF2A000CECF9 /* ALWTargetA.h */,
+				992216871F4EAF2A000CECF9 /* ALWTargetA.m */,
+				992216891F4EAF70000CECF9 /* ALWModuleAPrivateClass.h */,
+				9922168A1F4EAF70000CECF9 /* ALWModuleAPrivateClass.m */,
+			);
+			path = ALWModuleA;
 			sourceTree = "<group>";
 		};
 		C8C026E35B6AC8146FE30A4D /* Pods */ = {
@@ -303,13 +334,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ALWMediator_Example-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		30D891C9DFDEAA705DA19675 /* [CP] Embed Pods Frameworks */ = {
@@ -333,13 +367,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ALWMediator_Tests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		50A45AA6261B1986F3073753 /* [CP] Copy Pods Resources */ = {
@@ -378,9 +415,12 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ALWMediator_Example/Pods-ALWMediator_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ALWMediator/ALWMediator.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ALWMediator.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -394,8 +434,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				992216831F4EA54F000CECF9 /* ALWMediator+TargetA.m in Sources */,
+				9922168B1F4EAF70000CECF9 /* ALWModuleAPrivateClass.m in Sources */,
 				6003F59E195388D20070C39A /* ALWAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* ALWViewController.m in Sources */,
+				992216881F4EAF2A000CECF9 /* ALWTargetA.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

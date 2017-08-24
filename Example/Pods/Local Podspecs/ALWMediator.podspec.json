@@ -1,18 +1,17 @@
 {
   "name": "ALWMediator",
   "version": "0.1.0",
-  "summary": "A short description of ALWMediator.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/lisong/ALWMediator",
+  "summary": "A mediator used to invoke target and method, also remove coupled relationship.",
+  "homepage": "https://github.com/ALongWay/ALWMediator",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "lisong": "lisong@douyu.tv"
+    "lisong": "370381830@qq.com"
   },
   "source": {
-    "git": "https://github.com/lisong/ALWMediator.git",
+    "git": "https://github.com/ALongWay/ALWMediator.git",
     "tag": "0.1.0"
   },
   "platforms": {
